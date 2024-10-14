@@ -1,0 +1,51 @@
+/* Hướng dẫn chèn ảnh(nền) :
+     -Cách 1: Chèn ảnh(nền) trên mạng
+        + Chọn một ảnh bạn muốn trên trình duyệt
+        + Click chuột phải -> Chọn sao chép địa chỉ ảnh
+        + Dán địa chỉ ảnh vào /link/
+
+     -Cách 2: Chèn ảnh(nền) có sẵn trên máy tính
+        + Đưa file ảnh cần chèn vào thư mục MiniGame
+        + Thực hiện cú pháp  url(' /MiniGame/tên-ảnh ');
+*/
+
+/* Thực hành */ 
+
+/* Thêm logo góc phải trang */
+.logo{
+    background-image: url('');
+}
+
+
+/* Điều chỉnh màu, font chữ cho tiêu đề trang */
+header h1{
+    font-family: sans-serif;
+    color:rgb(248, 144, 144);
+}
+
+
+/* Điều chỉnh màu, font chữ cho các nút chuyển trang */
+header nav a{
+    font-family: ; 
+    color:rgb(248, 144, 144);
+}
+
+
+/* Chọn nền cho khung đầu trang*/
+header{
+    background-color: rgb(0, 0, 0);
+    background-image: ;
+}
+
+/* Chọn ảnh đại diện */
+.avatar{
+    background-image: url('');
+}
+
+
+/* Chọn màu cho khung giới thiệu  */
+.left, .right{
+    background-color: rgb(248, 144, 144);
+}
+
+/* Kết thúc thực hành */
