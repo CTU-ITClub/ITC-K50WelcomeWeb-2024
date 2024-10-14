@@ -158,6 +158,8 @@ main{
     background-color: rgb(255, 255, 255);
     background-image: url('../Source/7cf0c81b-5060-4281-9c9e-412a775281fe.jpg'); 
     background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
     border:1px solid white;
     border-radius: 1em;
 }

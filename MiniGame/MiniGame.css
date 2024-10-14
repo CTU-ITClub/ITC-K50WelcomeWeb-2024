@@ -13,7 +13,7 @@
 
 /* Thêm logo góc phải trang */
 .logo{
-    background-image: url('');
+    background-image: url('/Background/red-black-brush-stroke-banner-background-perfect-canva.jpg');
 }
 
 
@@ -33,12 +33,13 @@ header nav a{
 
 /* Chọn nền cho khung đầu trang*/
 header{
+    background-color: black;
     background-image: url('/link/');
 }
 
 /* Chọn ảnh đại diện */
 .avatar{
-    background-image: url('/link/');
+    background-image: url('https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/462681409_3762889400692505_3697430618435930930_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1AoSmKbVbQcQ7kNvgGQsBgl&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AbG-ghgcmbS88utyfrPTr_5&oh=00_AYBJi8BBYjUwMjxd8x9R0b-BDO4Uwkol5UjFCikxtOwG5g&oe=6712FFE7');
 }
 
 
