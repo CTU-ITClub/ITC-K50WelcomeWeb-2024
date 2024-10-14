@@ -33,19 +33,24 @@ header nav a{
 
 /* Chọn nền cho khung đầu trang*/
 header{
-    background-color: rgb(0, 0, 0);
-    background-image: ;
+    background-image: url('/link/');
 }
 
 /* Chọn ảnh đại diện */
 .avatar{
-    background-image: url('');
+    background-image: url('/link/');
 }
 
 
+/* Chọn màu cho chữ bên trong khung */
+.frame{
+    color:rgb(255, 255, 255);
+}
+
 /* Chọn màu cho khung giới thiệu  */
-.left, .right{
+.frame{
     background-color: rgb(248, 144, 144);
+    background-image: url('/Background/red-black-brush-stroke-banner-background-perfect-canva.jpg');
 }
 
 /* Kết thúc thực hành */

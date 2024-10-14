@@ -1,3 +1,6 @@
+*{
+    background-repeat: no-repeat;
+}
 body{
     color:rgb(237, 21, 21);
     font-size:10px;
@@ -18,12 +21,16 @@ body{
 header{
     grid-area: header;
     background-color: rgb(0, 0, 0);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 main{
     grid-area: main;
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(255, 255, 255);
     border-radius: 0.5em;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 footer{
     grid-area: footer;
@@ -55,6 +62,7 @@ header{
     justify-content: space-between;
     text-align: center;
     align-items: start;
+    background-size: cover;
 }
 header h1{
     font-size:2.5em;
@@ -99,6 +107,8 @@ main{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .frame{
     width: 90%;
@@ -109,6 +119,10 @@ main{
         'avatar profile'
     ;
     align-self: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border:1px solid white;
+    border-radius: 1em;
 }
 .right, .left{
     padding:0.1em 0em 1.5em 0em;
@@ -117,7 +131,6 @@ main{
     grid-area: avatar;
     background-repeat: no-repeat;
     background-size:cover;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +145,6 @@ main{
 .right{
     grid-area: profile;
     display:flex;
-    background-color: rgb(255, 255, 255);
     flex-direction: column;
     justify-content: start;
     border:1px solid white;
@@ -149,11 +161,8 @@ main{
     border:1px solid white;
     border-radius: 1em;
 }
-.caption{
-    color:black;
-}
+
 .right h1{
-    color:rgb(0, 0, 0);
     font-size:2.5em;
     text-align: center;
     margin:0px;
@@ -169,7 +178,6 @@ tr{
     width: fit-content;
 }
 td{
-    color:black;
     width: 1em;
     height: 3em;
     font-size:1.2em;
