@@ -5,41 +5,46 @@
         + Dán địa chỉ ảnh vào /link/
 
      -Cách 2: Chèn ảnh(nền) có sẵn trên máy tính
-        + Đưa file ảnh cần chèn vào thư mục MiniGame
-        + Thực hiện cú pháp  url(' /MiniGame/tên-ảnh ');
+        + Đưa file ảnh cần chèn vào thư mục Background
+        + Thực hiện cú pháp  url(' /Background/...');
 */
 
 /* Thực hành */ 
 
+
+/* Chọn font cho trang */
+html{
+    font-family: Ruge Boogie;
+}
 /* Thêm logo góc phải trang */
 .logo{
-    background-image: url('/Background/red-black-brush-stroke-banner-background-perfect-canva.jpg');
+    background-color: rgba(249, 249, 249, 0.17);
+    background-image: url('/link/');
 }
 
 
 /* Điều chỉnh màu, font chữ cho tiêu đề trang */
 header h1{
-    font-family: sans-serif;
     color:rgb(248, 144, 144);
 }
 
 
 /* Điều chỉnh màu, font chữ cho các nút chuyển trang */
 header nav a{
-    font-family: ; 
     color:rgb(248, 144, 144);
 }
 
 
 /* Chọn nền cho khung đầu trang*/
 header{
+    /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
     background-color: black;
     background-image: url('/link/');
 }
 
 /* Chọn ảnh đại diện */
 .avatar{
-    background-image: url('https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/462681409_3762889400692505_3697430618435930930_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1AoSmKbVbQcQ7kNvgGQsBgl&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AbG-ghgcmbS88utyfrPTr_5&oh=00_AYBJi8BBYjUwMjxd8x9R0b-BDO4Uwkol5UjFCikxtOwG5g&oe=6712FFE7');
+    background-image: url('/link/');
 }
 
 
@@ -48,8 +53,9 @@ header{
     color:rgb(255, 255, 255);
 }
 
-/* Chọn màu cho khung giới thiệu  */
+/* Chọn nền cho khung giới thiệu  */
 .frame{
+    /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
     background-color: rgb(248, 144, 144);
     background-image: url('/Background/red-black-brush-stroke-banner-background-perfect-canva.jpg');
 }
