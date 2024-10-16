@@ -1,6 +1,6 @@
 /* Hướng dẫn chèn ảnh(nền) :
      -Cách 1: Chèn ảnh(nền) trên mạng
-        + Chọn một ảnh bạn muốn trên trình duyệt
+        + Chọn một ảnh bạn muốn chèn trên trình duyệt
         + Click chuột phải -> Chọn sao chép địa chỉ ảnh
         + Dán địa chỉ ảnh vào /link/
 
@@ -9,27 +9,28 @@
         + Thực hiện cú pháp  url(' /Background/...');
 */
 
-/* Thực hành */ 
+/* Thực hành */
 
 
 /* Chọn font cho trang */
 html{
     font-family: sans-serif;
 }
+
+
 /* Thêm logo góc phải trang */
 .logo{
-    background-color: rgba(249, 249, 249, 0.17);
     background-image: url('/link/');
 }
 
 
-/* Điều chỉnh màu, font chữ cho tiêu đề trang */
+/* Điều chỉnh màu chữ cho tiêu đề trang */
 header h1{
     color:rgb(248, 144, 144);
 }
 
 
-/* Điều chỉnh màu, font chữ cho các nút chuyển trang */
+/* Điều chỉnh màu chữ cho các nút chuyển trang */
 header nav a{
     color:rgb(248, 144, 144);
 }
@@ -38,9 +39,10 @@ header nav a{
 /* Chọn nền cho khung đầu trang*/
 header{
     /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-image: url('/link/');
 }
+
 
 /* Chọn ảnh đại diện */
 .avatar{
@@ -53,11 +55,13 @@ header{
     color:rgb(255, 255, 255);
 }
 
+
 /* Chọn nền cho khung giới thiệu  */
 .frame{
     /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
-    background-color: rgb(248, 144, 144);
-    background-image: url('/Background/red-black-brush-stroke-banner-background-perfect-canva.jpg');
+    background-color: rgb(200, 92, 92);
+    background-image: url('/link/');
 }
+
 
 /* Kết thúc thực hành */

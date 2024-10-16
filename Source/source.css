@@ -7,7 +7,7 @@ body{
     margin:0px;
     display: grid;
     grid-template-columns:100%;
-    grid-template-rows: 150px 500px 62px;
+    grid-template-rows: 150px 500px 70px;
     grid-template-areas: 
         'header'
         'main'
@@ -16,7 +16,6 @@ body{
     background-image: url('../Source/3156493.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    transition: 1s;
 }
 
 header{
@@ -45,9 +44,6 @@ footer{
         font-size:20px;
     }
 }
-
-
-
 /* header */
 header{
     display:flex;
@@ -59,8 +55,6 @@ header{
 header h1{
     font-size:2.5em;
     align-self: center;
-    padding: 0em;
-    margin: 0em;
 }
 header h1 span{
     font-size: 0.5em;
@@ -72,25 +66,23 @@ header nav{
 header nav a{
     text-decoration: none;
     margin:1em;
-    transition: 0.3s;
     text-transform: uppercase;
     font-weight: bold;
-    color:white;
 }
 header nav a:hover{
     color:rgb(245, 242, 255);
     bottom: 0.15em;
     border-bottom: 5px solid rgb(255, 255, 255);
-    border-radius: 10%;
+    border-radius: 5%;
 }
 .logo{
-    margin:0.5em;
+    margin:1em;
     width:3.5em;
     height: 3.5em;
-    background-color: white;
     background-size: cover;
     border:1px solid white;
     border-radius: 50%;
+    background-color: rgba(249, 249, 249, 0.17);
 }
 
 
@@ -104,8 +96,9 @@ main{
     background-repeat: no-repeat;
 }
 .frame{
-    width: 90%;
-    height: 450px;
+    margin:1.5em;
+    width: 95%;
+    height: fit-content;
     display:grid;
     grid-template-columns: 40% 60%;
     grid-template-areas: 
@@ -153,7 +146,6 @@ main{
     background-position: center;
     border:1px solid white;
     border-radius: 1em;
-    transition: 1s;
 }
 
 .right h1{
@@ -170,6 +162,7 @@ table{
 }
 tr{
     width: fit-content;
+    text-align: start;
 }
 td{
     width: 1em;
