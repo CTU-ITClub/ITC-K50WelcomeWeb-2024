@@ -96,7 +96,7 @@ main{
 }
 .frame{
     margin:1.5em;
-    width: 95%;
+    width: 80%;
     height: fit-content;
     display:grid;
     grid-template-columns: 40% 60%;
