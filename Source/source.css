@@ -16,6 +16,7 @@ body{
     background-image: url('../Source/3156493.jpg');
     background-size:cover;
     background-repeat: no-repeat;
+    transition: 1s;
 }
 
 header{
@@ -93,6 +94,7 @@ header nav a:hover{
 }
 
 
+
 /*main */
 main{
     display:flex;
@@ -151,6 +153,7 @@ main{
     background-position: center;
     border:1px solid white;
     border-radius: 1em;
+    transition: 1s;
 }
 
 .right h1{
