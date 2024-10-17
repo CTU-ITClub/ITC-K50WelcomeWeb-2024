@@ -3,10 +3,9 @@
         + Chọn một ảnh bạn muốn chèn trên trình duyệt
         + Click chuột phải -> Chọn sao chép địa chỉ ảnh
         + Dán địa chỉ ảnh vào /link/
-
      -Cách 2: Chèn ảnh(nền) có sẵn trên máy tính
         + Đưa file ảnh cần chèn vào thư mục background
-        + Thực hiện cú pháp  url(' ../background/');
+        + Thay url('/link/') thành  url(' ../background/tên ảnh');
 */
 
 /* Thực hành */
@@ -20,13 +19,13 @@ html{
 
 /* Thêm logo góc phải trang */
 .logo{
-    background-image: url('../background/Black-Red.jpg');
+    background-image: url('/link/');
 }
 
 
 /* Điều chỉnh màu chữ cho tiêu đề trang */
 header h1{
-    color:rgb(248, 144, 144);
+    color:rgb(215, 143, 143);
 }
 
 
@@ -59,7 +58,7 @@ header{
 /* Chọn nền cho khung giới thiệu  */
 .frame{
     /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
-    background-color: rgb(200, 92, 92);
+    background-color: rgb(240, 133, 133);
     background-image: url('/link/');
 }
 
@@ -70,5 +69,14 @@ main{
     background-color: rgb(255, 255, 255);
     background-image: url('/link/');
 }
+
+
+/* Chọn nền cho footer */
+footer{
+    /* Có thể chọn nền đơn sắc hoặc chèn ảnh nền */
+    background-color: rgb(0, 0, 0);
+    background-image: url('/link/');
+}
+
 
 /* Kết thúc thực hành */
